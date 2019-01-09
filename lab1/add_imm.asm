@@ -1,0 +1,3 @@
+MOV A,#09H
+ADD A,#05H
+END

@@ -1,0 +1,3 @@
+MOV A,01H
+ADD A,02H
+END
