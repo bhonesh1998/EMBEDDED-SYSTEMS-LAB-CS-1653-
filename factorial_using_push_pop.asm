@@ -1,0 +1,19 @@
+mov a,#04h
+mov r0,a
+mov r1,a
+dec r1
+mov b,r1
+mul ab
+mov r3,a
+push 3
+dec r0
+dec r0
+here:
+pop 3
+dec r1
+mov a,r3
+mov b,r1
+mul ab
+mov r3,a
+push 3
+djnz r0,here
