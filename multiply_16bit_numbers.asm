@@ -3,6 +3,12 @@
 ; value2=0210
 ; answer=00C8B710
 
+;23h=hb4
+;22h=lb4+hb3+hb2
+;21h=hb1+lb2+lb3
+;20h=lb1
+
+
 mov r1,#02h
 mov r3,#10h
 mov r2,#61h
