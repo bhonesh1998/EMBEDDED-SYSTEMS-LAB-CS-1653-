@@ -1,3 +1,8 @@
+; answer is like (on memory) 23h,22h,21h,20h
+; value1=6151
+; value2=0210
+; answer=00C8B710
+
 mov r1,#02h
 mov r3,#10h
 mov r2,#61h
